@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="shift_jis"?>
+<Root>
+  <isBigEndian Value="False" />
+  <BymlFormatVersion Value="3" />
+  <C1>
+    <C1 Name="param">
+      <D2 Name="mBurst_SplashPaintR" StringValue="7" />
+      <D2 Name="mRiseFall_AltitudeCheck_OfstY" StringValue="1" />
+      <D2 Name="mCollisionRadiusFar" StringValue="60" />
+      <D2 Name="unknown" StringValue="0.02" />
+      <D2 Name="mRiseFall_ToSquid_GravityDownSt" StringValue="0.2" />
+      <D1 Name="mJetFootDamagePerFrame" StringValue="20" />
+      <D1 Name="mDamage" StringValue="1200" />
+      <D2 Name="mBurst_SplashVelL" StringValue="5.2" />
+      <D0 Name="mGuideDrawLine" StringValue="False" />
+      <D1 Name="mAirMoveLmt_Frm" StringValue="120" />
+      <D1 Name="mRiseFall_SquidAccRtDamp_Frm" StringValue="13" />
+      <D2 Name="mRiseFall_ToSquid_GravityDownBias" StringValue="0.5" />
+      <D2 Name="mInitVel" StringValue="6" />
+      <D2 Name="mBurst_KnockBackCoreImpact" StringValue="2" />
+      <D1 Name="mPaintGauge_SpecialFrm" StringValue="480" />
+      <D1 Name="mBurst_SplashNum" StringValue="10" />
+      <D1 Name="mRepeatFrame" StringValue="60" />
+      <D1 Name="mRiseFall_ToSquid_GravityDownFrm" StringValue="20" />
+      <D2 Name="unknown" StringValue="45" />
+      <D2 Name="mBurst_SplashOfstY" StringValue="3" />
+      <D1 Name="mShotDelayFrm_Req" StringValue="10" />
+      <D2 Name="mBurst_SplashPitH" StringValue="30" />
+      <D1 Name="mGuideCheckCollisionFrame" StringValue="50" />
+      <D2 Name="mJetFootTiltCalcHeight" StringValue="10" />
+      <D2 Name="mRiseFall_PID_Ki_AfterBoost" StringValue="0.042" />
+      <D2 Name="mJetFootPaintRadius" StringValue="12" />
+      <D2 Name="mRiseFall_RiseVel" StringValue="2.15" />
+      <D2 Name="mRiseFall_PID_Kd_AfterBoost" StringValue="0.0134" />
+      <D2 Name="mRiseFall_PID_Kp" StringValue="0.05" />
+      <D1 Name="mRiseFall_NoJumpAirFrm" StringValue="120" />
+      <D2 Name="mRiseFall_PID_Kp_AfterBoost" StringValue="0.05" />
+      <D1 Name="mDamageFar" StringValue="300" />
+      <D1 Name="mDamageNear" StringValue="500" />
+      <D1 Name="mShotDelayFrm" StringValue="50" />
+      <D2 Name="mRiseFall_AltitudeCheck_Dist" StringValue="200" />
+      <D2 Name="mBurst_KnockBackKb" StringValue="0.6" />
+      <D2 Name="mBurst_SplashAroundFuzzyRate" StringValue="2" />
+      <D1 Name="mPaintGauge_SpecialFrmH" StringValue="600" />
+      <D2 Name="mColRadius" StringValue="3" />
+      <D2 Name="mRiseFall_SquidAccRtDamp_Bias" StringValue="0.5" />
+      <D1 Name="mDamageMiddle" StringValue="500" />
+      <D1 Name="mRiseFall_AltitudeCheck_Num" StringValue="16" />
+      <D2 Name="mRiseFall_AltitudeCheck_SphereR" StringValue="3" />
+      <D1 Name="mPaintGauge_PointFull" StringValue="180" />
+      <D2 Name="unknown" StringValue="2" />
+      <D2 Name="mJetFootPaintCollisionRadius" StringValue="2" />
+      <D2 Name="mCollisionRadiusMiddle" StringValue="30" />
+      <D2 Name="unknown" StringValue="0.03" />
+      <D2 Name="mRiseFall_RiseAcc" StringValue="0.2" />
+      <D2 Name="mBurst_KnockBackRadius" StringValue="80" />
+      <D2 Name="mBoost_JumpVel" StringValue="2" />
+      <D2 Name="mRiseFall_Altitude_Kf_D" StringValue="1" />
+      <D1 Name="mRiseFall_RiseDelayFrm_ToHuman" StringValue="15" />
+      <D1 Name="mPaintGauge_SpecialFrmM" StringValue="540" />
+      <D2 Name="mRiseFall_PID_ResetWindup" StringValue="10" />
+      <D2 Name="mRiseFall_FallAcc" StringValue="0.02" />
+      <D2 Name="mCollisionRadiusNear" StringValue="30" />
+      <D2 Name="mDistance" StringValue="300" />
+      <D2 Name="mMove_Acc" StringValue="0.05" />
+      <D2 Name="mBurst_SplashPitL" StringValue="5" />
+      <D2 Name="mJetFootDamageAndPaintHeight" StringValue="100" />
+      <D2 Name="unknown" StringValue="0.3" />
+      <D2 Name="mBurst_SplashVelH" StringValue="3.5" />
+      <D1 Name="mBoost_NoSquidFrm" StringValue="30" />
+      <D2 Name="mRiseFall_ToSquid_GravityDownEn" StringValue="1" />
+      <D2 Name="mDrawRadius" StringValue="1.5" />
+      <D2 Name="mRiseFall_PID_Ki" StringValue="0.042" />
+      <D2 Name="mKnockBackRate" StringValue="5" />
+      <D2 Name="mBurst_PaintR" StringValue="40" />
+      <D2 Name="mRiseFall_Altitude_Kf_U" StringValue="1" />
+      <D2 Name="mRiseFall_PID_Kd" StringValue="0.0067" />
+      <D1 Name="mJumpAfterFrm" StringValue="24" />
+      <D2 Name="mJetFootDamageRadius" StringValue="10" />
+      <D1 Name="mBoost_NoBoostFrm" StringValue="90" />
+    </C1>
+  </C1>
+</Root>

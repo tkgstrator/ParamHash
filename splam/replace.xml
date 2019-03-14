@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="shift_jis"?>
+<Root>
+  <isBigEndian Value="False" />
+  <BymlFormatVersion Value="3" />
+  <C1>
+    <C1 Name="param">
+      <D2 Name="mBurst_SplashPaintR" StringValue="7" />
+      <D2 Name="mCollisionRadiusFar" StringValue="60" />
+      <D2 Name="mBurst_SplashVelHMid" StringValue="3.5" />
+      <D1 Name="mJetFootDamagePerFrame" StringValue="20" />
+      <D1 Name="mDamage" StringValue="3000" />
+      <D2 Name="mBombCoreRadiusRateMid" StringValue="1" />
+      <D2 Name="mBurst_SplashVelL" StringValue="5.2" />
+      <D0 Name="mGuideDrawLine" StringValue="False" />
+      <D2 Name="mBurst_SplashVelLHigh" StringValue="5.2" />
+      <D2 Name="mInitVel" StringValue="7.142857" />
+      <D2 Name="mBurst_KnockBackCoreImpact" StringValue="2" />
+      <D1 Name="mPaintGauge_SpecialFrm" StringValue="600" />
+      <D1 Name="mBurst_SplashNum" StringValue="10" />
+      <D1 Name="mRepeatFrame" StringValue="60" />
+      <D2 Name="mBurst_SplashOfstY" StringValue="3" />
+      <D1 Name="mShotDelayFrm_Req" StringValue="10" />
+      <D2 Name="mBurst_SplashPitH" StringValue="30" />
+      <D1 Name="mGuideCheckCollisionFrame" StringValue="42" />
+      <D2 Name="mJetFootTiltCalcHeight" StringValue="10" />
+      <D2 Name="mJetFootPaintRadius" StringValue="12" />
+      <D2 Name="mBombCoreRadiusRateHigh" StringValue="1" />
+      <D1 Name="mDamageFar" StringValue="750" />
+      <D1 Name="mDamageNear" StringValue="1000" />
+      <D1 Name="mShotDelayFrm" StringValue="50" />
+      <D2 Name="mBurst_SplashVelHHigh" StringValue="3.5" />
+      <D2 Name="mBurst_KnockBackKb" StringValue="0.6" />
+      <D2 Name="mBurst_SplashAroundFuzzyRate" StringValue="2" />
+      <D1 Name="mPaintGauge_SpecialFrmH" StringValue="600" />
+      <D2 Name="mColRadius" StringValue="3" />
+      <D1 Name="mDamageMiddle" StringValue="750" />
+      <D2 Name="mBurst_PaintRMid" StringValue="40" />
+      <D1 Name="mPaintGauge_PointFull" StringValue="180" />
+      <D2 Name="mBurst_PaintRHigh" StringValue="40" />
+      <D2 Name="mJetFootPaintCollisionRadius" StringValue="2" />
+      <D2 Name="mBurst_SplashVelLMid" StringValue="5.2" />
+      <D2 Name="mCollisionRadiusMiddle" StringValue="30" />
+      <D2 Name="mBurst_SplashPaintRHigh" StringValue="7" />
+      <D2 Name="mBurst_KnockBackRadius" StringValue="80" />
+      <D2 Name="mBoost_JumpVel" StringValue="2" />
+      <D1 Name="mDamagePlayer" StringValue="1200" />
+      <D1 Name="mPaintGauge_SpecialFrmM" StringValue="600" />
+      <D2 Name="mCollisionRadiusNear" StringValue="30" />
+      <D2 Name="mDistance" StringValue="300" />
+      <D2 Name="mBurst_SplashPitL" StringValue="5" />
+      <D2 Name="mJetFootDamageAndPaintHeight" StringValue="100" />
+      <D2 Name="mBurst_SplashVelH" StringValue="3.5" />
+      <D1 Name="mBoost_NoSquidFrm" StringValue="30" />
+      <D2 Name="mDrawRadius" StringValue="1.5" />
+      <D2 Name="mBurst_SplashPaintRMid" StringValue="7" />
+      <D2 Name="mKnockBackRate" StringValue="5" />
+      <D2 Name="mBurst_PaintR" StringValue="40" />
+      <D2 Name="mJetFootDamageRadius" StringValue="10" />
+      <D1 Name="mBoost_NoBoostFrm" StringValue="90" />
+    </C1>
+  </C1>
+</Root>
