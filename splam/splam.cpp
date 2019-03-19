@@ -7,44 +7,58 @@
 #include <sstream>
 #include <string>
 #include <vector>
+#include <Windows.h>
 
 using namespace std;
 
 int main(int argc, char *argv[])
 {
 	vector<string> param;
-	string filename = "rpl_" + (string)argv[1];
-	ofstream ofs(filename);
-	ifstream ifs("param.csv");
-	string p, line, token;
 
-	cout << "convert to " << filename;
-	while (getline(ifs, line)) {
-		istringstream stream(line);
-		while (getline(stream, token, ',')) {
-			param.push_back(token);
-		}
-	}
+	for (int i = 1; i <= argc; i++)
+	{
+		string path = (string)argv[i];
+		int offset = path.find_last_of("\\") + 1;
+		string filename = path.substr(0, offset) + "rpl_" + path.substr(offset);
 
-	// 変換したいxml読み込み
-	ifstream xml(argv[1]);
-	while (getline(xml, line)) {
-		int st = line.find("Name=\"") + 6;
-		if (st > 6) {
-			int ed = line.find("\"", st);
-			string value = line.substr(st, ed - st);
-			auto itr = find(param.begin(), param.end(), value);
+		ofstream ofs(filename);
+		ifstream ifs("param.csv");
+		string p, line, token;
 
-			//cout << itr - param.begin() << endl;
-			if (itr == param.end()) {
-				p = "unknown";
+		while (getline(ifs, line))
+		{
+			istringstream stream(line);
+			while (getline(stream, token, ','))
+			{
+				param.push_back(token);
 			}
-			else {
-				p = param[itr - param.begin() + 1];
-			}
-			line.replace(st, ed - st, p);
 		}
-		ofs << line << endl;;
+
+		// 変換したいxml読み込み
+		ifstream xml(argv[1]);
+		while (getline(xml, line))
+		{
+			int st = line.find("Name=\"") + 6;
+			if (st > 6)
+			{
+				int ed = line.find("\"", st);
+				string value = line.substr(st, ed - st);
+				auto itr = find(param.begin(), param.end(), value);
+
+				//cout << itr - param.begin() << endl;
+				if (itr == param.end())
+				{
+					p = "unknown";
+				}
+				else
+				{
+					p = param[itr - param.begin() + 1];
+				}
+				line.replace(st, ed - st, p);
+			}
+			ofs << line << endl;
+			;
+		}
+		ofs.close();
 	}
-	ofs.close();
 }
